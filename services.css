@@ -1,0 +1,177 @@
+.main {
+  margin: 0 auto;
+
+  width: 917px;
+  margin-top: 24px;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.7);
+
+  font-size: 12px;
+
+
+
+  padding: 10px;
+
+  display: flex;
+
+  margin-top: 24px;
+}
+
+
+
+.serviceImage {
+  padding-top: 10px;
+
+  padding-bottom: 10px;
+}
+
+.mainheading {
+  color: #c1d4eb;
+  padding: 10px 15px 10px 0;
+
+  font-size: 14px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.services {
+  border-top: solid 1px #5f647a;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  color: #c1d4eb;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+
+  border-bottom: solid 1px #5f647a;
+
+  text-decoration: underline;
+  margin-top: 15px;
+}
+
+.services span {
+  display: block;
+}
+
+.casestudy {
+  color: white;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  font-size: 14px;
+}
+
+.information {
+  color: white;
+}
+
+
+
+
+.casestudy {
+  list-style: none;
+}
+
+.contact {
+  color: white;
+}
+
+
+a:hover {
+  background-color: rgb(178, 221, 252, 0.7);
+
+
+}
+
+.colour {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact {
+  text-decoration-line: underline;
+}
+
+.Request-button {
+  border: 1px solid #136885;
+}
+
+.links {
+  color: #c1d4eb;
+}
+
+.text {
+  font-size: 14px;
+
+  letter-spacing: 1px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  line-height: 20px;
+
+  margin-bottom: 10px;
+
+  color: white;
+}
+
+.Request-help {
+  border-top: solid 1px #5f647a;
+  background-color: #10223A;
+  margin-left: 20px;
+  color: white;
+  padding-left: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: solid 2px #5f647a;
+  font-size: 14px;
+  margin: 24px;
+
+  padding: 20px 0 0 25px;
+}
+
+.Request-button {
+  background-image: linear-gradient(to top, #0A293D, #155D75);
+  color: #C4E3FF;
+  border: 1px solid #136885;
+  border-radius: 4px;
+  background-color: #156985;
+  color: white;
+  border-radius: 4px;
+  border-bottom: solid 2px #5f647a;
+  margin-bottom: 24px;
+}
+
+a.servicehover:hover,
+a.servicehover {
+  background-color: rgb(178, 221, 252, 0.7);
+  border-radius: 25px;
+}
+
+.paragraph {
+  font-size: 14px;
+
+  letter-spacing: 1px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  line-height: 20px;
+
+  margin-bottom: 10px;
+
+  color: white;
+}
+
+.inner-content {
+  display: flex;
+  border: 1px solid;
+  border-image: linear-gradient(to top, #ffffff40, rgba(0, 0, 0, 0)) 30;
+  line-height: 21px;
+  font-family: Trebuchet MS;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+
+  column-gap: 40px;
+}

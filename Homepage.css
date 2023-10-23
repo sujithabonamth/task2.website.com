@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(bg.jpg);
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  font-family: 'Trebuchet MS';
+  background-color: #4A6BAE;
+}
+
+.portal {
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.quote {
+  background-color: #4a6bae;
+  padding-bottom: 4px;
+  display: inline-block;
+  font-family: Trebuchet MS;
+}
+
+.Request {
+  padding-left: 3px;
+  padding-right: 2px;
+  text-decoration: none;
+  font-size: 10px;
+  color: white;
+}
+
+.inner-navbar {
+  display: flex;
+  width: 100%;
+  border:1px solid #5D6266;
+}
+.navbar{
+  margin-top: 24px;
+  display: flex;
+  height:56px;
+  padding: 5px;
+  color: white;
+}
+.navbar ul li a {
+  color: #9dcce8;
+  font-size: 18px;
+  font-weight: normal;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ 
+}
+
+.navbar li {
+  display: inline;
+}
+.navbar ul{
+  list-style-type: none;
+ 
+  padding: 20px 15px;
+  margin-left: 20px;
+  justify-content: flex-end;
+}
+.logo {
+  position: relative;
+
+  bottom: 40px;
+
+  margin-left: 15px;
+}
+
+.heading {
+  background-color: rgba(24, 43, 67, 0.2);
+
+  color: white;
+
+
+
+  letter-spacing: 15px;
+  font-size:24px;
+  font-weight: normal;
+
+  font-family: Trebuchet MS;
+
+  padding: 40px;
+}
+
+.main {
+  margin: 0 auto;
+  width: 917px;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.7);
+
+  font-size: 12px;
+
+  padding: 4px;
+}
+
+.footer {
+  background-color: #2d3e6b;
+
+  text-align: center;
+
+  font-family: Trebuchet MS;
+
+  color: white;
+
+  text-decoration: none;
+
+  margin-top: 20px;
+
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+
+  border: 1px solid;
+
+  border-image: linear-gradient(to top, #ffffff40, rgba(0, 0, 0, 0)) 30;
+
+  line-height: 21px;
+
+  font-family: Trebuchet MS;
+
+  color: white;
+
+  font-size: 14px;
+
+  padding: 8px;
+}
+
+.link {
+  color: #b2ddfc;
+}
+
+.contact {
+  color: white;
+}
+
+.col {
+  padding: 10px;
+
+  padding-left: 10px;
+
+  font-size: 14px;
+
+  letter-spacing: 0.7px;
+
+  font-family: Trebuchet MS;
+
+  line-height: 20px;
+}
+
+ .navbar li:not(:last-child):after {
+  content: '|';
+
+  padding: 5px;
+}
+.quote :not(:last-child):after {
+  content: '|';
+
+  
+}
+
+li a {
+  color: #9dcce9;
+
+  text-decoration: none;
+}
+
+
+
+.colour {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  padding-top: 10px;
+
+  padding-bottom: 10px;
+}
+
+.contact {
+  text-decoration-line: underline;
+}
+.border {
+  border: 1px solid #5d6266;
+  padding: 10px;
+}
+
+.contact:not(:last-child):after {
+  content: '|';
+
+  
+}
+.navbar ul li a:hover {
+  color: #fff;
+  background-color: rgb(178, 221, 252, 0.7);
+  border-radius: 10px;
+}
